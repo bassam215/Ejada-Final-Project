@@ -5,7 +5,7 @@ import person2 from "../assets/images/woman.jpg";
 export const reviews = [
   {
     id: 1,
-    name: "Ming Makram",
+    name: "bassam sherif",
     image: person1,
     rating: 4.5,
     review:
