@@ -1,5 +1,10 @@
 {
-  "dependencies": {
-    "swiper": "^14.0.7"
+  "name": "ejada-final-project-root",
+  "private": true,
+  "scripts": {
+    "install": "cd final_project && npm install",
+    "build": "cd final_project && npm run build",
+    "dev": "cd final_project && npm run dev",
+    "preview": "cd final_project && npm run preview"
   }
 }
