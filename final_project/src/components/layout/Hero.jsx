@@ -1,8 +1,10 @@
 import shoe from "@/assets/images/shoe.png";
+import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-[calc(100vh-80px)]">
+    <section className="relative flex min-h-[calc(100vh-80px)]">
+      <Navbar />
       {/* Left Side */}
       <div className="flex w-5/12 items-center bg-white">
         <div className="mx-auto w-[80%]">
@@ -32,7 +34,7 @@ export default function Hero() {
 
         {/* Ultimate */}
         <h1
-          className="absolute  left-0 top-1/2 -translate-x-[45%] -translate-y-1/2 -rotate-90 text-[120px] font-black text-[#ffffff]">
+          className="absolute  left-0 top-1/2 -translate-x-[45%] -translate-y-1/2 -rotate-90 text-[135px] font-black text-[#ffffff]">
           ULTIMATE
         </h1>
 

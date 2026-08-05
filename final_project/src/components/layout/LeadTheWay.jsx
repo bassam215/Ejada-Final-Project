@@ -10,11 +10,11 @@ export default function LeadTheWay() {
 
   return (
     <section className="w-[90%] mx-auto mt-32 mb-20 overflow-visible">
-      <div className="relative h-[400px] rounded-[24px] bg-[#FD8B92] overflow-visible">
+      <div className="relative h-[500px] rounded-[24px] bg-[#FD8B92] overflow-visible">
 
         {/* Background Text */}
         <span
-          className=" absolute  bottom-[-20px] left-1/2 -translate-x-1/2 text-[300px] font-black leading-none text-white/10 select-none"
+          className=" absolute  bottom-[-20px] left-1/2 -translate-x-1/2 text-[350px] font-black leading-none text-white/10 select-none z-10"
         >
           StepUP
         </span>
@@ -33,7 +33,7 @@ export default function LeadTheWay() {
         <img
           src={dshop}
           alt=""
-          className="absolute  bottom-[-56px] h-[750px] z-20 max-w-none"
+          className="absolute  bottom-[-71px] h-[950px] z-20 max-w-none"
         />
 
         {/* CONTENT */}

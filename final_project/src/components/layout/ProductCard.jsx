@@ -22,14 +22,14 @@ function ProductCard({ product }) {
       />
 
       <h3 className="mt-7 text-lg">
-        {product.title}
+        {product.title || product.name}
       </h3>
 
       <div className="flex gap-3 mt-3">
         <span>₹ {product.price}</span>
 
         <del className="text-gray-400">
-          ₹ {product.oldPrice}
+          ₹ {product.oldprice}
         </del>
       </div>
 

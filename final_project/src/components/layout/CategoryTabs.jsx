@@ -1,7 +1,8 @@
 
 function CategoryTabs({ activeTab, setActiveTab }) {
-        const tabs = ["man", "woman", "boy", "child"]; 
-         return (
+  const tabs = ["Men", "Woman", "Boy", "Girl"];
+
+  return (
     <div className="flex justify-center gap-6">
 
       {tabs.map((tab) => (

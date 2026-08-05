@@ -5,7 +5,7 @@ import ajio from "@/assets/images/AJIO.svg";
 export default function Brands() {
   return (
     <section className="bg-black">
-      <div className="mx-auto flex h-30 w-[92%] max-w-[1450px] items-center justify-between">
+       <div className="max-w-[90%] mx-auto flex h-30 items-center justify-between">
 
         <img src={ebay} alt="eBay"/>
 
